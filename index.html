@@ -69,13 +69,13 @@
                 </p>
             </div>
             <div
-                class="flex items-center gap-3 text-white/60"
+                class="flex items-center gap-1 text-white/60"
                 x-data="{ liked: false,likes: 640 }"
             >
-                <div class="inline-flex gap-x-3">
+                <div class="inline-flex gap-x-1.5 items-center">
                     <i
                         class="fa-regular fa-heart cursor-pointer text-2xl"
-                        @click="likes++;liked=true"
+                        @click="likes++;liked=!liked"
                         :class="{
                                 'text-red-600':liked,
                                 'fa-solid fa-heart': liked,
@@ -84,7 +84,7 @@
                     ></i>
 
                     <p class="text-base">
-                        <span x-text="likes"></span>
+                        <p x-text="likes"></p>
                     </p>
                 </div>
                 <div>
