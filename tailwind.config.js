@@ -3,6 +3,9 @@ module.exports = {
     content: ['*.html'],
     theme: {
         extend: {
+            fontFamily: {
+                code: ['Source Sans 3', 'monospace'],
+            },
             colors: {
                 primary: {
                     dark: {
