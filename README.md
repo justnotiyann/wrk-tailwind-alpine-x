@@ -3,7 +3,7 @@
 Melalui Git
 
 ```bash
-git clone https://github.com/justnotiyann/wrk-tailwind-alpine.git
+git clone git@github.com:justnotiyann/wrk-tailwind-alpine-x.git
 ```
 
 Atau download langsung dengan **ZIP**
